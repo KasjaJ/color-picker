@@ -1,0 +1,103 @@
+html {
+    font-family: helvetica;
+    width: 100vw;
+}
+
+body {
+    background-color: bisque;
+    color: black;
+    text-align: center;
+}
+
+
+h1 {
+  font-size: 80pt;
+  margin-bottom: 0;
+}
+
+h3 {
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: normal;
+}
+
+
+p {
+  left: 50%;
+  margin: 0;
+  margin-top: 2%;
+}
+
+
+
+
+
+.opis {
+  width: 100vw;
+  height: auto;
+
+  float: none;
+  position: fixed;
+  bottom: 3%;
+}
+
+
+.color {
+  width: fit-content;
+  height: fit-content;
+  padding: 1.7%;
+  background-color: white;
+  border-radius: 2rem;
+  margin: auto;
+  margin-top: 10%;
+}
+
+
+.transparent {
+  background-color: transparent;
+}
+
+
+#x {
+  opacity: 0.7;
+  margin-left: 98%;
+}
+
+#x:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  body {
+    margin: 6%
+  }
+
+  h1 {
+    font-size: 35pt;
+  }
+
+  h3 {
+    font-weight: normal;
+    padding: 0;
+  }
+
+  .opis {
+    width: 90%;
+    float: none;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .color {
+    padding: 6%;
+    padding-top: 8%;
+    width: fit-content;
+  }
+
+}
